@@ -3426,6 +3426,21 @@ input, select, textarea {
 			font-size: 3.25em;
 		}
 
+		#one {
+			background-image: url("../../images/12.png");
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		#one .inner {
+			padding: 1em 0 5em 0px;
+			margin: 0 auto 0 70px;
+		}
+
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
