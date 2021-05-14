@@ -3436,10 +3436,10 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
-		#reception {
-			padding: 1px 1px;
+		article#reception {
+			padding: 1px 1px !important;
 		}
-		#reception iframe {
+		article#reception iframe {
 			height: 28rem;
 			width: 100%;
 		}
