@@ -2814,9 +2814,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			article#reception:before{
-				background-color: transparent;
-			}
+
 			.tiles article.is-transitioning {
 				-moz-transform: scale(0.95);
 				-webkit-transform: scale(0.95);
@@ -3445,6 +3443,9 @@ input, select, textarea {
 			height: 28rem;
 			width: 100%;
 		}
+		article#reception:before{
+				background-color: transparent;
+			}
 
 		#one .inner {
 			padding: 1em 0 5em 0px;
